@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My favorite cafe spots in Seoul</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="My favorite cafe spots in Seoul with an interactive map." />
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.css" />
+        <script src="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.js"></script>
+    </head>
+
+    <body>
+        <main class="container">
+            <section class="summary-card">
+                <h1>My favorite cafe spots in Seoul</h1>
+                <p class="summary-text"> � Choose a café to fly there on the map and see other reviews! </p>
+                <div class="cafe-buttons">
+                    <button type="button" class="cafe-button" data-cafe="Cafe Onion Anguk">🥐 Cafe Onion Anguk</button>
+                    <button type="button" class="cafe-button" data-cafe="Thanks Nature Cafe">🍃 Thanks Nature Cafe</button>
+                    <button type="button" class="cafe-button" data-cafe="Cafe Yeonnam-dong 239-20">🎨 Cafe Yeonnam-dong 239-20</button>
+                    <button type="button" class="cafe-button" data-cafe="Fritz Coffee Company">☕ Fritz Coffee Company</button>
+                    <button type="button" class="cafe-button" data-cafe="Anthracite Coffee Roasters">💎 Anthracite Coffee Roasters</button>
+                </div>
+            </section>
+            <div id="map"></div>
+        </main>
+        <script src="js/init.js"></script>
+    </body>
+</html>
