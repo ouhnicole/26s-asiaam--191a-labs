@@ -2,28 +2,28 @@
 <html>
     <head>
         <title>Hello World with MapLibreGl</title>
-        <!-- hint: remember to change your page title! -->
         <meta charset="utf-8" />
         <link rel="shortcut icon" href="#">
         <link rel="stylesheet" href="styles/style.css">
-
-        <!-- MapLibreGL's css-->
         <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.css" />
-
-        <!-- MapLibreGL's JavaScript-->
         <script src="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.js"></script>
     </head>
 
     <body>
-        <header>
-            My Travel Map
-            <!-- hint: you can make a menu with other links here if you'd like -->
-        </header>
+        <header>Home </header>
 
         <main>
             <div class="portfolio">
-                <!-- Portfolio content goes here -->
-                <img src="me.svg" alt="Placeholder profile image">
+                <div class="about-card">
+                    <div class="about-badge">About Me</div>
+                    <h2>Nicole Ouh</h2>
+                    <p class="about-description">Fourth-year Asian American Studies student at UCLA. I love tennis, pickleball, and protein ice cream.</p>
+                    <ul class="about-list">
+                        <li>📍 UCLA</li>
+                        <li>✨ Asian American Studies</li>
+                    </ul>
+                    <div class="about-footer">2026 Portfolio</div>
+                </div>
             </div>
             <div id="map"></div>
         </main>
@@ -33,4 +33,3 @@
         <script src="js/init.js"></script>
     </body>
 </html>
-
