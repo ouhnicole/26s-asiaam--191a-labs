@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World with MapLibreGl</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.css" />
+        <script src="https://unpkg.com/maplibre-gl@5.0.0/dist/maplibre-gl.js"></script>
+    </head>
+
+    <body>
+        <header>Home </header>
+
+        <main>
+            <div class="portfolio">
+                <div class="about-card">
+                    <div class="about-header">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="about-top">
+                        <img class="about-photo" src="styles/me.png?cachebuster=1" alt="Profile photo of Nicole" width="140" height="140">
+                        <div class="about-text">
+                            <p class="about-description">Beyond the Numbers: Mapping ICE’s Impact on UCLA Filipino Students.</p>
+                        </div>
+                    </div>
+                    <div class="about-list-group">
+                        <div>
+                            <strong>My goals</strong>
+                            <ol class="about-list ordered-list">
+                                <li>Learn to make maps that are accessible for communities.</li>
+                                <li>Improve critical map-making skills beyond institutional use.</li>
+                                <li>Share meaningful stories through maps.</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <strong>Favorite Proteins</strong>
+                            <ul class="about-list unordered-list">
+                                <li>⬜ Tofu</li>
+                                <li>🍗 Chicken</li>
+                                <li>🥩 Beef</li>
+                                <li>🥚 Egg</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-footer">Summer 2026 Portfolio</div>
+                </div>
+                <div class="about-card about-secondary">
+                    <h2>Map Description</h2>
+                    <p class="about-description">My map shows my favorite cafés in Seoul. Each marker points to a trending café with a short description so you can explore my top picks across the city.</p>
+                </div>
+            </div>
+            <div class="map-column">
+                <div id="map"></div>
+                <div class="photo-row">
+                    <div class="about-card photo-highlight">
+                        <img src="https://www.alexisjetsets.com/wp-content/uploads/2019/11/cafe-onion-anguk-seoul-alexisjetsets-5-e1573715795823.jpg" alt="Cafe Onion Anguk" class="highlight-photo">
+                    </div>
+                    <div class="about-card photo-highlight">
+                        <img src="https://www.livelikeitstheweekend.com/wp-content/uploads/2025/08/Best-Cafes-in-Seoul-35.jpg" alt="Café photo from Seoul" class="highlight-photo">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div id="footer">
+            
+        </div>
+        <script src="js/init.js"></script>
+    </body>
+</html>
